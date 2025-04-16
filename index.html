@@ -21,7 +21,10 @@
       margin-top: 20px;
     }
     .link-button {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
       margin: 15px auto;
       padding: 15px 20px;
       width: 80%;
@@ -35,19 +38,34 @@
     .link-button:hover {
       background-color: #0056b3;
     }
+    .icon {
+      height: 20px;
+      width: 20px;
+    }
   </style>
 </head>
 <body>
   <img src="your-profile.jpg" alt="Profile Picture" />
-  <h1>何育杰/Javier Arevalo</h1>
-  <p>Civil Engineering Junior Student at National Taiwan University, 
-    passionate about sustainable design, and architecture. 
-    My research focuses on implementing strategies to mitigate 
-    the Urban Heat Island (UHI) Effect</p>
+  <h1>何育杰 / Javier Arevalo</h1>
+  <p>Civil Engineering Junior Student at National Taiwan University, passionate about sustainable design and architecture. My research focuses on implementing strategies to mitigate the Urban Heat Island (UHI) Effect.</p>
 
-  <a href="cv.pdf" class="link-button">📄 Download CV</a>
-  <a href="https://javier-arevalo.weebly.com" class="link-button">🌐 Portfolio</a>
-  <a href="https://www.linkedin.com/in/javier-arevalo-12heyujie/" class="link-button">💼 LinkedIn</a>
-  <a href="https://www.instagram.com/a_javier12/profilecard/?igsh=MTc2cHAzYXFuYnlwbw==" class="link-button">📷 Instagram</a>
+  <a href="cv.pdf" class="link-button" target="_blank" rel="noopener">
+    📄 Download CV
+  </a>
+
+  <a href="https://javier-arevalo.weebly.com" class="link-button" target="_blank" rel="noopener">
+    🟨📁 Portfolio
+  </a>
+
+  <a href="https://www.linkedin.com/in/javier-arevalo-12heyujie/" class="link-button" target="_blank" rel="noopener">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" class="icon">
+    LinkedIn
+  </a>
+
+  <a href="https://www.instagram.com/a_javier12/profilecard/?igsh=MTc2cHAzYXFuYnlwbw==" class="link-button" target="_blank" rel="noopener">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" class="icon">
+    Instagram
+  </a>
 </body>
 </html>
+
